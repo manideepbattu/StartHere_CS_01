@@ -2,7 +2,7 @@
 def caesar_cipher(text, shift, mode='encrypt'):
     result = ""
     
-    
+
     if mode == 'decrypt':
         shift = -shift
 
