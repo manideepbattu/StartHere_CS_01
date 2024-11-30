@@ -6,7 +6,7 @@ def caesar_cipher(text, shift, mode='encrypt'):
     if mode == 'decrypt':
         shift = -shift
 
-   
+
     for char in text:
         if char.isalpha():  # Check if the character is a letter
             
